@@ -12,6 +12,8 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.0.0'
 
+gem 'sqlite3'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -33,8 +35,7 @@ group :production do
 # Use postgresql as the database for Active Record
 	gem 'rails_12factor'
 	gem 'pg', '0.17.1'
-    gem 'sqlite3'
-	gem 'unicorn'
+    gem 'unicorn'
 	gem 'rails_log_stdout',              github: 'heroku/rails_log_stdout'
 	gem 'rails3_serve_static_assets',    github: 'heroku/rails3_serve_static_assets'
 end
