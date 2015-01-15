@@ -9,7 +9,7 @@ development:
   database: mynameandimage_development
   host: localhost
   username: daniel
-  password:
+  password: chocolate100
   pool: 5
   timeout: 5000
 
@@ -22,7 +22,7 @@ test:
   database: mynameandimage_test
   pool: 5
   username: daniel
-  password:
+  password: chocolate100
   timeout: 5000
 
 production:
@@ -30,7 +30,7 @@ production:
   encoding: unicode
   database: mynameandimage_production
   username: daniel
-  password:
+  password: chocolate100
   pool: 5
   timeout: 5000
   
