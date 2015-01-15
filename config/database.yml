@@ -7,9 +7,10 @@ development:
   adapter: postgresql
   encoding: unicode
   database: mynameandimage_development
-  pool: 5
+  host: localhost
   username: daniel
   password:
+  pool: 5
   timeout: 5000
 
 # Warning: The database defined as "test" will be erased and
@@ -28,8 +29,8 @@ production:
   adapter: postgresql
   encoding: unicode
   database: mynameandimage_production
-  pool: 5
   username: daniel
   password:
+  pool: 5
   timeout: 5000
   

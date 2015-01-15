@@ -6,7 +6,7 @@ class HomeController < ApplicationController
   	render :text =>
   	'{ "info": [
 
-      { "Name": "DANIEL"
+      { "Name": "SPANIEL"
     
       }
 			  ]
