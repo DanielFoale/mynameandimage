@@ -1,15 +1,33 @@
 h1 {
 	color: red;
+	background: brown;
 
 }
 
-p {
+h3 {
+	color: orange;
+
+}
+
+
+p1 {
 	color: blue;
+	background: brown;
+	font-family: ariel;
+	
 
 }
+
+
+
+
+
 
 body {
-    color: purple;
-	background: brown;
+    
+	background-color: #f3f3f3;
     text-align: center;
+     margin-left: 150px;
+     margin-right: 150px;
+   overflow: hidden;
 }
